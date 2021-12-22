@@ -1,20 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Template from './src/template1/Finance-app-light-theme-template';
+import AppUiTemplate from './src/template1/App-UI-template';
+import HomeScreenTemplate from './src/template1/The-Brainbob-mobile-app-homescreen-template';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <>
+     {/* <AppUiTemplate></AppUiTemplate> */}
+     {/* <Template></Template> */}
+     {/* <HomeScreenTemplate></HomeScreenTemplate> */}
+    </>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
