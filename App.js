@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import Template from './src/template1/Finance-app-light-theme-template';
 import AppUiTemplate from './src/template1/App-UI-template';
 import HomeScreenTemplate from './src/template1/The-Brainbob-mobile-app-homescreen-template';
+import ToDoList from './src/todo-list/ToDoList';
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
      {/* <AppUiTemplate></AppUiTemplate> */}
      {/* <Template></Template> */}
      {/* <HomeScreenTemplate></HomeScreenTemplate> */}
+     {/* <ToDoList></ToDoList> */}
     </>
   );
 }
